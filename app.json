@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Glexpace",
+    "slug": "glexpace",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./images/gpaceLogo.png",
+    "splash": {
+      "image": "./images/gpaceSplash2.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "package": "com.glexpace.glexpace",
+      "versionCode": 1
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.glexpace.glexpace"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
